@@ -9,7 +9,7 @@ const app = express();
 
 //Connect to mongodb
 //mongoose.connect('mongodb://localhost/payment');
-mongoose.connect('mongodb+srv://alexy:hana9753A@cluster0-iyeno.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://alexy:alexy@cluster0-iyeno.mongodb.net/test?retryWrites=true&w=majority');
 
 mongoose.Promise = global.Promise;
 
